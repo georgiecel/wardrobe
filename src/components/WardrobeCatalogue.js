@@ -24,8 +24,24 @@ class WardrobeCatalogue extends Component {
 
     render() {
 
+        const clothingType = (value) => {
+            if (value == 'dress' || value == 'skirt') {
+                return '👗 ';
+            }
+            if (value == 'outerwear') {
+                return '🧥 ';
+            }
+            if (value == 'top') {
+                return '👚 ';
+            }
+            if (value == 'pants' || value == 'jeans') {
+                return '👖 ';
+            }
+            return;
+        }
+
         const itemCost = (value) => {
-            if(value !== '')
+            if (value !== '')
             return '$' + parseFloat(Math.round(value * 100) / 100).toFixed(2);
             return 'unknown';
         }
@@ -46,7 +62,7 @@ class WardrobeCatalogue extends Component {
                     function(item, i) {
                         return (
                             <div className="c-list-item">
-                                <h3 className="item-name">{item.name}</h3>
+                                <h3 className="item-name">{ clothingType(item.category) }{item.name}</h3>
                                 <p className="item-category">
                                     <strong>{item.category}</strong>
                                     {item.subcategory != null && <span className="inline-list">{ inlineList(item.subcategory) }</span>}
@@ -63,9 +79,9 @@ class WardrobeCatalogue extends Component {
                                 <hr />
                                 <p>{item.description}</p>
                                 <p>{item.comments}</p>
-                                <p><strong>Purchased for:</strong> { itemCost(item.cost) }<br />
-                                <strong>Average cost per wear:</strong> { costPerWear(item.cost, item.timesWorn) }<br />
-                                <strong>Condition:</strong> {item.condition}</p>
+                                <p>💰 <strong>Purchased for:</strong> { itemCost(item.cost) }<br />
+                                💵 <strong>Average cost per wear:</strong> { costPerWear(item.cost, item.timesWorn) }<br />
+                                ✨ <strong>Condition:</strong> {item.condition}</p>
                             </div>
                         );
                     })}
