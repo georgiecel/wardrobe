@@ -13,7 +13,7 @@ class WardrobeCatalogue extends Component {
     }
 
     componentDidMount() {
-        fetch('http://localhost:3000/wardrobe.json')
+        fetch('./wardrobe.json')
             .then(res => res.json())
             .then(jsonData => {
                 this.setState({
@@ -24,6 +24,22 @@ class WardrobeCatalogue extends Component {
 
     render() {
 
+        const itemCost = (value) => {
+            if(value !== '')
+            return '$' + parseFloat(Math.round(value * 100) / 100).toFixed(2);
+            return 'unknown';
+        }
+
+        const costPerWear = (value, timesWorn) => {
+            if ((value != '') && (timesWorn != ''))
+            return '$' + (value / timesWorn).toFixed(2);
+            return 'unknown';
+        }
+
+        const inlineList = (value) => {
+            return value.join(' • ');
+        }
+
         return (
             <div className="c-list">
                 {this.state.data.wardrobe.map(
@@ -31,29 +47,31 @@ class WardrobeCatalogue extends Component {
                         return (
                             <div className="c-list-item">
                                 <h3 className="item-name">{item.name}</h3>
-                                <div className="item-category">{item.category}
-                                    {item.subcategory != null && <span className="item-subcategories">{item.subcategory.join(' • ')}</span>}
-                                </div>
+                                <p className="item-category">
+                                    <strong>{item.category}</strong>
+                                    {item.subcategory != null && <span className="inline-list">{ inlineList(item.subcategory) }</span>}
+                                </p>
                                 <span className="item-year">{item.year}</span>
-                                <div>Colour
-                                    <ul className="item-colour">
-                                        {item.colour.map(c => {
-                                            if(typeof c === 'string') return <li>{c}</li>;
-                                            return <li>{c.pattern}</li>
-                                        })}
-                                    </ul>
-                                </div>
-                                <p>Condition: {item.condition}</p>
+                                <p>
+                                    <strong>Colour</strong>
+                                    <span className="inline-list">{ inlineList(item.colour) }</span>
+                                </p>
+                                <p>
+                                    <strong>Material</strong>
+                                    <span className="inline-list">{ inlineList(item.material) }</span>
+                                </p>
                                 <hr />
+                                <p>{item.description}</p>
                                 <p>{item.comments}</p>
+                                <p><strong>Purchased for:</strong> { itemCost(item.cost) }<br />
+                                <strong>Average cost per wear:</strong> { costPerWear(item.cost, item.timesWorn) }<br />
+                                <strong>Condition:</strong> {item.condition}</p>
                             </div>
                         );
                     })}
             </div>
         );
-
     }
-
 }
 
 export { WardrobeCatalogue };

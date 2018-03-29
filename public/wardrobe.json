@@ -13,7 +13,7 @@
                 "grey"
             ],
             "sleeve": "short",
-            "description": "",
+            "description": "A glittery/sparkly fine, light t-shirt. Regular fit, fairly stretchy.",
             "year": 2017,
             "purchased": "2017-10-24",
             "season": [
@@ -24,13 +24,15 @@
                 "year-round"
             ],
             "url": "",
-            "material": "",
+            "material": [
+                "viscose",
+                "lurex"
+            ],
             "condition": "Very Good",
-            "comments": "I like it",
+            "comments": "This top fits snugly on me. I’ve worn it many times and it goes very well with jeans or one of my Camille skirts. I was wary of it being something I only bought for trends but it turns out I wore it a lot more than I’d initially expected.",
             "status": "",
             "cost": 23.34,
-            "timesWorn": 10,
-            "costPerWear": ""
+            "timesWorn": 10
         },
         {
             "name": "Piper Denim Bustier",
@@ -45,20 +47,22 @@
                 "white"
             ],
             "sleeve": "sleeveless",
-            "description": "",
+            "description": "A white sleeveless cropped top with deliberately frayed tassel edges. It zips up through the back with a silver zipper with an O-ring pull.",
             "year": 2018,
             "purchased": "2018-02-27",
             "season": [
                 "summer"
             ],
             "url": "",
-            "material": "denim",
+            "material": [
+                "cotton",
+                "elastane"
+            ],
             "condition": "Excellent",
-            "comments": "I like it",
+            "comments": "My friend Monica and I bought the same top!",
             "status": "",
             "cost": 59.95,
-            "timesWorn": 2,
-            "costPerWear": ""
+            "timesWorn": 2
         },
         {
             "name": "frill sleeve bardot top",
@@ -86,13 +90,14 @@
                 "spring"
             ],
             "url": "",
-            "material": "crepe",
+            "material": [
+                "crepe"
+            ],
             "condition": "OK",
             "comments": "Some slight pilling on the upper back and front",
             "status": "",
             "cost": 50.96,
-            "timesWorn": 4,
-            "costPerWear": ""
+            "timesWorn": 4
         },
         {
             "name": "Everly Shirring High-Neck Top",
@@ -103,13 +108,11 @@
             ],
             "colour": [
                 "blue",
-                "navy",
-                {
-                    "pattern": [
-                        "speckle",
-                        "spot"
-                    ]
-                }
+                "navy"
+            ],
+            "pattern": [
+                "speckle",
+                "spot"
             ],
             "sleeve": "sleeveless",
             "description": "",
@@ -121,13 +124,14 @@
                 "spring"
             ],
             "url": "",
-            "material": "crepe",
+            "material": [
+                "crepe"
+            ],
             "condition": "Very good",
             "comments": "",
             "status": "",
             "cost": 11.44,
-            "timesWorn": 7,
-            "costPerWear": ""
+            "timesWorn": 7
         },
         {
             "name": "Cobalt blue crepe jacket",
@@ -151,13 +155,14 @@
                 "spring"
             ],
             "url": "",
-            "material": "",
+            "material": [
+                ""
+            ],
             "condition": "Excellent",
             "comments": "",
             "status": "",
             "cost": 24.71,
-            "timesWorn": 3,
-            "costPerWear": ""
+            "timesWorn": 3
         },
         {
             "name": "Mutton Sleeve Tee",
@@ -188,13 +193,14 @@
                 "spring"
             ],
             "url": "",
-            "material": "",
+            "material": [
+                ""
+            ],
             "condition": "Excellent",
             "comments": "Bit tight around the chest area",
             "status": "",
             "cost": 27.20,
-            "timesWorn": 4,
-            "costPerWear": ""
+            "timesWorn": 4
         },
         {
             "name": "Waterfall Button Jacket",
@@ -224,13 +230,14 @@
                 "spring"
             ],
             "url": "",
-            "material": "",
+            "material": [
+                ""
+            ],
             "condition": "Excellent",
             "comments": "",
             "status": "",
             "cost": 52.46,
-            "timesWorn": 2,
-            "costPerWear": ""
+            "timesWorn": 2
         },
         {
             "name": "Pleat Neck Blouse",
@@ -259,13 +266,14 @@
                 "winter"
             ],
             "url": "",
-            "material": "crepe",
+            "material": [
+                "crepe"
+            ],
             "condition": "Excellent",
             "comments": "",
             "status": "",
             "cost": 52.46,
-            "timesWorn": 7,
-            "costPerWear": ""
+            "timesWorn": 7
         },
         {
             "name": "Enchantress Frill Dress",
@@ -292,13 +300,14 @@
                 "summer"
             ],
             "url": "",
-            "material": "lace",
+            "material": [
+                "lace"
+            ],
             "condition": "Excellent",
             "comments": "",
             "status": "",
             "cost": 27.08,
-            "timesWorn": 3,
-            "costPerWear": ""
+            "timesWorn": 3
         },
         {
             "name": "Black Alma Cardigan",
@@ -326,13 +335,14 @@
                 "summer"
             ],
             "url": "",
-            "material": "knit",
+            "material": [
+                "knit"
+            ],
             "condition": "Excellent",
             "comments": "",
             "status": "",
             "cost": 27.08,
-            "timesWorn": 3,
-            "costPerWear": ""
+            "timesWorn": 3
         },
         {
             "name": "Rita Rib Neck Tee",
@@ -360,13 +370,14 @@
                 "year-round"
             ],
             "url": "",
-            "material": "cotton",
+            "material": [
+                "cotton"
+            ],
             "condition": "Good",
             "comments": "",
             "status": "",
             "cost": 24.95,
-            "timesWorn": 20,
-            "costPerWear": ""
+            "timesWorn": 20
         },
         {
             "name": "Rita Rib Neck Tee",
@@ -379,13 +390,9 @@
             "colour": [
                 "white",
                 "blue",
-                "light blue",
-                {
-                    "pattern": [
-                        "stripe"
-                    ]
-                }
+                "light blue"
             ],
+            "pattern": "stripe",
             "sleeve": [
                 "short"
             ],
@@ -400,13 +407,14 @@
                 "year-round"
             ],
             "url": "",
-            "material": "cotton",
+            "material": [
+                "cotton"
+            ],
             "condition": "Good",
             "comments": "",
             "status": "",
             "cost": 24.95,
-            "timesWorn": 20,
-            "costPerWear": ""
+            "timesWorn": 20
         },
         {
             "name": "Camille Skirt",
@@ -430,13 +438,14 @@
                 "year-round"
             ],
             "url": "",
-            "material": "polyurethane",
+            "material": [
+                "polyurethane"
+            ],
             "condition": "Good",
             "comments": "",
             "status": "",
             "cost": 47.96,
-            "timesWorn": 10,
-            "costPerWear": ""
+            "timesWorn": 10
         },
         {
             "name": "Camille Skirt",
@@ -460,13 +469,14 @@
                 "year-round"
             ],
             "url": "",
-            "material": "polyurethane",
+            "material": [
+                "polyurethane"
+            ],
             "condition": "Good",
             "comments": "",
             "status": "",
             "cost": 47.96,
-            "timesWorn": 10,
-            "costPerWear": ""
+            "timesWorn": 10
         },
         {
             "name": "Cable Front Jumper",
@@ -489,13 +499,14 @@
                 "winter"
             ],
             "url": "",
-            "material": "acrylic",
+            "material": [
+                "acrylic"
+            ],
             "condition": "Good",
             "comments": "",
             "status": "",
             "cost": 32.01,
-            "timesWorn": 5,
-            "costPerWear": ""
+            "timesWorn": 5
         },
         {
             "name": "Button Cuff Jumper",
@@ -519,13 +530,14 @@
                 "winter"
             ],
             "url": "",
-            "material": "acrylic",
+            "material": [
+                "acrylic"
+            ],
             "condition": "Good",
             "comments": "",
             "status": "",
             "cost": 40.01,
-            "timesWorn": 3,
-            "costPerWear": ""
+            "timesWorn": 3
         },
         {
             "name": "The Colin Jumper",
@@ -548,13 +560,14 @@
                 "winter"
             ],
             "url": "",
-            "material": "wool",
+            "material": [
+            "wool"
+        ],
             "condition": "Good",
             "comments": "Some pilling on the lower back",
             "status": "",
             "cost": 116.79,
-            "timesWorn": 5,
-            "costPerWear": ""
+            "timesWorn": 5
         },
         {
             "name": "Jennifer Foil Mutton Sleeve Top",
@@ -582,8 +595,7 @@
             "comments": "",
             "status": "",
             "cost": 41.96,
-            "timesWorn": 3,
-            "costPerWear": ""
+            "timesWorn": 3
         },
         {
             "name": "Nova Off-Shoulder Tropical Top",
@@ -593,11 +605,9 @@
                 "off-white",
                 "pink",
                 "green",
-                "yellow",
-                {
-                    "pattern": "tropical"
-                }
+                "yellow"
             ],
+            "pattern": "tropical",
             "sleeve": [
                 "3/4"
             ],
@@ -616,8 +626,7 @@
             "comments": "",
             "status": "",
             "cost": 24.54,
-            "timesWorn": 3,
-            "costPerWear": ""
+            "timesWorn": 3
         },
         {
             "name": "Dark Denim Mid-Waist Pants",
@@ -643,8 +652,7 @@
             "comments": "",
             "status": "",
             "cost": 170.60,
-            "timesWorn": 3,
-            "costPerWear": ""
+            "timesWorn": 3
         },
         {
             "name": "Tailored Ankle Length Pants",
@@ -671,9 +679,8 @@
             "condition": "Excellent",
             "comments": "",
             "status": "",
-            "cost": 39.00,
-            "timesWorn": 10,
-            "costPerWear": ""
+            "cost": 39,
+            "timesWorn": 10
         },
         {
             "name": "Crew neck sweater",
@@ -697,9 +704,8 @@
             "condition": "Excellent",
             "comments": "",
             "status": "",
-            "cost": "???",
-            "timesWorn": 3,
-            "costPerWear": ""
+            "cost": "",
+            "timesWorn": 3
         },
         {
             "name": "Stine check polo",
@@ -707,13 +713,11 @@
             "category": "top",
             "colour": [
                 "off-white",
-                "black",
-                {
-                    "pattern": [
-                        "grid",
-                        "check"
-                    ]
-                }
+                "black"
+            ],
+            "pattern": [
+                "grid",
+                "check"
             ],
             "sleeve": "long",
             "description": "",
@@ -731,8 +735,7 @@
             "comments": "",
             "status": "",
             "cost": 24.21,
-            "timesWorn": 20,
-            "costPerWear": ""
+            "timesWorn": 20
         },
         {
             "name": "Cora Blouse",
@@ -740,13 +743,11 @@
             "category": "top",
             "colour": [
                 "cream",
-                "black",
-                {
-                    "pattern": [
-                        "spot",
-                        "cheetah"
-                    ]
-                }
+                "black"
+            ],
+            "pattern": [
+                "spot",
+                "cheetah"
             ],
             "sleeve": "short",
             "description": "",
@@ -764,8 +765,7 @@
             "comments": "",
             "status": "",
             "cost": 9.30,
-            "timesWorn": 20,
-            "costPerWear": ""
+            "timesWorn": 20
         },
         {
             "name": "Knitted crop",
@@ -793,9 +793,8 @@
             "condition": "Good",
             "comments": "",
             "status": "",
-            "cost": 22.00,
-            "timesWorn": 30,
-            "costPerWear": ""
+            "cost": 22,
+            "timesWorn": 30
         },
         {
             "name": "Jamie ankle grazer ripped jeans",
@@ -821,9 +820,8 @@
             "condition": "Good",
             "comments": "",
             "status": "",
-            "cost": 88.00,
-            "timesWorn": 150,
-            "costPerWear": ""
+            "cost": 88,
+            "timesWorn": 150
         },
         {
             "name": "Alexa off-the-shoulder top",
@@ -852,8 +850,7 @@
             "comments": "",
             "status": "",
             "cost": 24.98,
-            "timesWorn": 15,
-            "costPerWear": ""
+            "timesWorn": 15
         },
         {
             "name": "Lace wrapback top",
@@ -884,8 +881,7 @@
             "comments": "",
             "status": "",
             "cost": 29.98,
-            "timesWorn": 10,
-            "costPerWear": ""
+            "timesWorn": 10
         },
         {
             "name": "Nine Striped Dress",
@@ -894,11 +890,9 @@
             "colour": [
                 "blue",
                 "navy",
-                "white",
-                {
-                    "pattern": "stripe"
-                }
+                "white"
             ],
+            "pattern": "stripe",
             "sleeves": [
                 "3/4"
             ],
@@ -918,8 +912,7 @@
             "comments": "",
             "status": "",
             "cost": 30.33,
-            "timesWorn": 5,
-            "costPerWear": ""
+            "timesWorn": 5
         },
         {
             "name": "Bella crop top",
@@ -950,9 +943,8 @@
             "condition": "Excellent",
             "comments": "",
             "status": "",
-            "cost": 24.00,
-            "timesWorn": 10,
-            "costPerWear": ""
+            "cost": 24,
+            "timesWorn": 10
         },
         {
             "name": "Delta crop top",
@@ -981,9 +973,8 @@
             "condition": "Excellent",
             "comments": "",
             "status": "",
-            "cost": 30.00,
-            "timesWorn": 10,
-            "costPerWear": ""
+            "cost": 30,
+            "timesWorn": 10
         },
         {
             "name": "Willow leather jacket",
@@ -1012,9 +1003,8 @@
             "condition": "Excellent",
             "comments": "",
             "status": "",
-            "cost": 448.00,
-            "timesWorn": 10,
-            "costPerWear": ""
+            "cost": 448,
+            "timesWorn": 10
         }
     ]
 }
