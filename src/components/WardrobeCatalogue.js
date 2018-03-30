@@ -25,17 +25,17 @@ class WardrobeCatalogue extends Component {
     render() {
 
         const clothingType = (value) => {
-            if (value == 'dress' || value == 'skirt') {
-                return '👗 ';
+            if (value === 'dress' || value === 'skirt') {
+                return <span role="img" aria-label="teal flared dress">👗</span>;
             }
-            if (value == 'outerwear') {
-                return '🧥 ';
+            if (value === 'outerwear') {
+                return  <span role="img" aria-label="brown overcoat">🧥</span>;
             }
-            if (value == 'top') {
-                return '👚 ';
+            if (value === 'top') {
+                return  <span role="img" aria-label="pink blouse">👚</span>;
             }
-            if (value == 'pants' || value == 'jeans') {
-                return '👖 ';
+            if (value === 'pants' || value === 'jeans') {
+                return  <span role="img" aria-label="blue pair of jeans">👖</span>;
             }
             return;
         }
@@ -47,7 +47,7 @@ class WardrobeCatalogue extends Component {
         }
 
         const costPerWear = (value, timesWorn) => {
-            if ((value != '') && (timesWorn != ''))
+            if ((value !== '') && (timesWorn !== ''))
             return '$' + (value / timesWorn).toFixed(2);
             return 'unknown';
         }
@@ -79,9 +79,9 @@ class WardrobeCatalogue extends Component {
                                 <hr />
                                 <p>{item.description}</p>
                                 <p>{item.comments}</p>
-                                <p>💰 <strong>Purchased for:</strong> { itemCost(item.cost) }<br />
-                                💵 <strong>Average cost per wear:</strong> { costPerWear(item.cost, item.timesWorn) }<br />
-                                ✨ <strong>Condition:</strong> {item.condition}</p>
+                                <p><span role="img" aria-label="sack of money">💰</span> <strong>Purchased for:</strong> { itemCost(item.cost) }<br />
+                                <span role="img" aria-label="handful of paper money">💵</span> <strong>Average cost per wear:</strong> { costPerWear(item.cost, item.timesWorn) }<br />
+                                <span role="img" aria-label="sparkles">✨</span> <strong>Condition:</strong> {item.condition}</p>
                             </div>
                         );
                     })}
