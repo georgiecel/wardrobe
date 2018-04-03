@@ -1,1010 +1,1008 @@
-{
-    "wardrobe": [
-        {
-            "name": "Lykke Metallic Tee",
-            "brand": "Lulu + Rose",
-            "category": "top",
-            "subcategory": [
-                "t-shirt"
-            ],
-            "colour": [
-                "neutrals",
-                "silver",
-                "grey"
-            ],
-            "sleeve": "short",
-            "description": "A glittery/sparkly fine, light t-shirt. Regular fit, fairly stretchy.",
-            "year": 2017,
-            "purchased": "2017-10-24",
-            "season": [
-                "summer",
-                "autumn",
-                "winter",
-                "spring",
-                "year-round"
-            ],
-            "url": "",
-            "material": [
-                "viscose",
-                "lurex"
-            ],
-            "condition": "Very Good",
-            "comments": "This top fits snugly on me. I’ve worn it many times and it goes very well with jeans or one of my Camille skirts. I was wary of it being something I only bought for trends but it turns out I wore it a lot more than I’d initially expected.",
-            "status": "",
-            "cost": 23.34,
-            "timesWorn": 10
-        },
-        {
-            "name": "Piper Denim Bustier",
-            "brand": "Lulu + Rose",
-            "category": "top",
-            "subcategory": [
-                "cropped",
-                "sleeveless"
-            ],
-            "colour": [
-                "neutrals",
-                "white"
-            ],
-            "sleeve": "sleeveless",
-            "description": "A white sleeveless cropped top with deliberately frayed tassel edges. It zips up through the back with a silver zipper with an O-ring pull.",
-            "year": 2018,
-            "purchased": "2018-02-27",
-            "season": [
-                "summer"
-            ],
-            "url": "",
-            "material": [
-                "cotton",
-                "elastane"
-            ],
-            "condition": "Excellent",
-            "comments": "My friend Monica and I bought the same top!",
-            "status": "",
-            "cost": 59.95,
-            "timesWorn": 2
-        },
-        {
-            "name": "frill sleeve bardot top",
-            "brand": "Dorothy Perkins",
-            "category": "top",
-            "subcategory": [
-                "off-shoulder",
-                "fluted sleeve",
-                "delicate"
-            ],
-            "colour": [
-                "purple"
-            ],
-            "sleeve": [
-                "short",
-                {
-                    "style": "fluted"
-                }
-            ],
-            "description": "",
-            "year": 2017,
-            "purchased": "2017-08-08",
-            "season": [
-                "autumn",
-                "spring"
-            ],
-            "url": "",
-            "material": [
-                "crepe"
-            ],
-            "condition": "OK",
-            "comments": "Some slight pilling on the upper back and front",
-            "status": "",
-            "cost": 50.96,
-            "timesWorn": 4
-        },
-        {
-            "name": "Everly Shirring High-Neck Top",
-            "brand": "Atmos&Here",
-            "category": "top",
-            "subcategory": [
-                "sleeveless"
-            ],
-            "colour": [
-                "blue",
-                "navy"
-            ],
-            "pattern": [
-                "speckle",
-                "spot"
-            ],
-            "sleeve": "sleeveless",
-            "description": "",
-            "year": 2017,
-            "purchased": "2017-08-15",
-            "season": [
-                "summer",
-                "autumn",
-                "spring"
-            ],
-            "url": "",
-            "material": [
-                "crepe"
-            ],
-            "condition": "Very good",
-            "comments": "",
-            "status": "",
-            "cost": 11.44,
-            "timesWorn": 7
-        },
-        {
-            "name": "Cobalt blue crepe jacket",
-            "brand": "Dorothy Perkins",
-            "category": "outerwear",
-            "subcategory": [
-                "jacket",
-                "blazer"
-            ],
-            "colour": [
-                "blue",
-                "cobalt"
-            ],
-            "sleeve": "long",
-            "description": "",
-            "year": 2017,
-            "purchased": "2017-08-15",
-            "season": [
-                "autumn",
-                "winter",
-                "spring"
-            ],
-            "url": "",
-            "material": [
-                ""
-            ],
-            "condition": "Excellent",
-            "comments": "",
-            "status": "",
-            "cost": 24.71,
-            "timesWorn": 3
-        },
-        {
-            "name": "Mutton Sleeve Tee",
-            "brand": "Dorothy Perkins",
-            "category": "top",
-            "subcategory": [
-                ""
-            ],
-            "colour": [
-                "blue",
-                "light blue",
-                "turquoise"
-            ],
-            "sleeve": [
-                "short",
-                {
-                    "style": [
-                        "puffy"
-                    ]
-                }
-            ],
-            "description": "",
-            "year": 2017,
-            "purchased": "2017-09-12",
-            "season": [
-                "summer",
-                "autumn",
-                "spring"
-            ],
-            "url": "",
-            "material": [
-                ""
-            ],
-            "condition": "Excellent",
-            "comments": "Bit tight around the chest area",
-            "status": "",
-            "cost": 27.20,
-            "timesWorn": 4
-        },
-        {
-            "name": "Waterfall Button Jacket",
-            "brand": "Dorothy Perkins",
-            "category": "outerwear",
-            "subcategory": [
-                "jacket",
-                "waterfall jacket"
-            ],
-            "colour": [
-                "blue",
-                "navy"
-            ],
-            "sleeve": [
-                "3/4",
-                {
-                    "style": [
-                        "buttoned"
-                    ]
-                }
-            ],
-            "description": "",
-            "year": 2017,
-            "purchased": "2017-09-20",
-            "season": [
-                "autumn",
-                "spring"
-            ],
-            "url": "",
-            "material": [
-                ""
-            ],
-            "condition": "Excellent",
-            "comments": "",
-            "status": "",
-            "cost": 52.46,
-            "timesWorn": 2
-        },
-        {
-            "name": "Pleat Neck Blouse",
-            "brand": "Dorothy Perkins",
-            "category": "top",
-            "subcategory": [
-                ""
-            ],
-            "colour": [
-                "pink",
-                "blush"
-            ],
-            "sleeve": [
-                "long",
-                {
-                    "style": [
-                        "regular"
-                    ]
-                }
-            ],
-            "description": "",
-            "year": 2017,
-            "purchased": "2017-09-20",
-            "season": [
-                "autumn",
-                "winter"
-            ],
-            "url": "",
-            "material": [
-                "crepe"
-            ],
-            "condition": "Excellent",
-            "comments": "",
-            "status": "",
-            "cost": 52.46,
-            "timesWorn": 7
-        },
-        {
-            "name": "Enchantress Frill Dress",
-            "brand": "MINKPINK",
-            "category": "dress",
-            "subcategory": [
-                ""
-            ],
-            "colour": [
-                "yellow"
-            ],
-            "sleeve": [
-                "sleeveless",
-                {
-                    "style": [
-                        "cold shoulder"
-                    ]
-                }
-            ],
-            "description": "",
-            "year": 2017,
-            "purchased": "2017-10-06",
-            "season": [
-                "summer"
-            ],
-            "url": "",
-            "material": [
-                "lace"
-            ],
-            "condition": "Excellent",
-            "comments": "",
-            "status": "",
-            "cost": 27.08,
-            "timesWorn": 3
-        },
-        {
-            "name": "Black Alma Cardigan",
-            "brand": "M.N.G.",
-            "category": "outerwear",
-            "subcategory": [
-                "cardigan"
-            ],
-            "colour": [
-                "neutrals",
-                "black"
-            ],
-            "sleeve": [
-                "long",
-                {
-                    "style": [
-                        "fitted"
-                    ]
-                }
-            ],
-            "description": "",
-            "year": 2017,
-            "purchased": "2017-10-06",
-            "season": [
-                "summer"
-            ],
-            "url": "",
-            "material": [
-                "knit"
-            ],
-            "condition": "Excellent",
-            "comments": "",
-            "status": "",
-            "cost": 27.08,
-            "timesWorn": 3
-        },
-        {
-            "name": "Rita Rib Neck Tee",
-            "brand": "Atmos&Here",
-            "category": "top",
-            "subcategory": [
-                "cropped",
-                "t-shirt"
-            ],
-            "colour": [
-                "neutrals",
-                "grey"
-            ],
-            "sleeve": [
-                "short"
-            ],
-            "description": "",
-            "year": 2017,
-            "purchased": "2017-10-10",
-            "season": [
-                "summer",
-                "autumn",
-                "winter",
-                "spring",
-                "year-round"
-            ],
-            "url": "",
-            "material": [
-                "cotton"
-            ],
-            "condition": "Good",
-            "comments": "",
-            "status": "",
-            "cost": 24.95,
-            "timesWorn": 20
-        },
-        {
-            "name": "Rita Rib Neck Tee",
-            "brand": "Atmos&Here",
-            "category": "top",
-            "subcategory": [
-                "cropped",
-                "t-shirt"
-            ],
-            "colour": [
-                "white",
-                "blue",
-                "light blue"
-            ],
-            "pattern": "stripe",
-            "sleeve": [
-                "short"
-            ],
-            "description": "",
-            "year": 2017,
-            "purchased": "2017-10-10",
-            "season": [
-                "summer",
-                "autumn",
-                "winter",
-                "spring",
-                "year-round"
-            ],
-            "url": "",
-            "material": [
-                "cotton"
-            ],
-            "condition": "Good",
-            "comments": "",
-            "status": "",
-            "cost": 24.95,
-            "timesWorn": 20
-        },
-        {
-            "name": "Camille Skirt",
-            "brand": "Amelius",
-            "category": "skirt",
-            "subcategory": [
-                "mini skirt"
-            ],
-            "colour": [
-                "neutrals",
-                "black"
-            ],
-            "description": "",
-            "year": 2017,
-            "purchased": "2017-10-10",
-            "season": [
-                "summer",
-                "autumn",
-                "winter",
-                "spring",
-                "year-round"
-            ],
-            "url": "",
-            "material": [
-                "polyurethane"
-            ],
-            "condition": "Good",
-            "comments": "",
-            "status": "",
-            "cost": 47.96,
-            "timesWorn": 10
-        },
-        {
-            "name": "Camille Skirt",
-            "brand": "Amelius",
-            "category": "skirt",
-            "subcategory": [
-                "mini skirt"
-            ],
-            "colour": [
-                "neutrals",
-                "white"
-            ],
-            "description": "",
-            "year": 2017,
-            "purchased": "2017-10-10",
-            "season": [
-                "summer",
-                "autumn",
-                "winter",
-                "spring",
-                "year-round"
-            ],
-            "url": "",
-            "material": [
-                "polyurethane"
-            ],
-            "condition": "Good",
-            "comments": "",
-            "status": "",
-            "cost": 47.96,
-            "timesWorn": 10
-        },
-        {
-            "name": "Cable Front Jumper",
-            "brand": "Dorothy Perkins",
-            "category": "outerwear",
-            "subcategory": [
-                "jumper"
-            ],
-            "colour": [
-                "blue",
-                "navy"
-            ],
-            "sleeve": [
-                "long"
-            ],
-            "description": "",
-            "year": 2017,
-            "purchased": "2017-10-24",
-            "season": [
-                "winter"
-            ],
-            "url": "",
-            "material": [
-                "acrylic"
-            ],
-            "condition": "Good",
-            "comments": "",
-            "status": "",
-            "cost": 32.01,
-            "timesWorn": 5
-        },
-        {
-            "name": "Button Cuff Jumper",
-            "brand": "Dorothy Perkins",
-            "category": "outerwear",
-            "subcategory": [
-                "jumper",
-                "knit"
-            ],
-            "colour": [
-                "neutrals",
-                "grey"
-            ],
-            "sleeve": [
-                "long"
-            ],
-            "description": "",
-            "year": 2017,
-            "purchased": "2017-10-24",
-            "season": [
-                "winter"
-            ],
-            "url": "",
-            "material": [
-                "acrylic"
-            ],
-            "condition": "Good",
-            "comments": "",
-            "status": "",
-            "cost": 40.01,
-            "timesWorn": 3
-        },
-        {
-            "name": "The Colin Jumper",
-            "brand": "McIntyre",
-            "category": "outerwear",
-            "subcategory": [
-                "jumper"
-            ],
-            "colour": [
-                "neutrals",
-                "grey"
-            ],
-            "sleeve": [
-                "long"
-            ],
-            "description": "",
-            "year": 2017,
-            "purchased": "2017-10-24",
-            "season": [
-                "winter"
-            ],
-            "url": "",
-            "material": [
-            "wool"
+[
+    {
+        "name": "Lykke Metallic Tee",
+        "brand": "Lulu + Rose",
+        "category": "top",
+        "subcategory": [
+            "t-shirt"
         ],
-            "condition": "Good",
-            "comments": "Some pilling on the lower back",
-            "status": "",
-            "cost": 116.79,
-            "timesWorn": 5
-        },
-        {
-            "name": "Jennifer Foil Mutton Sleeve Top",
-            "brand": "Dorothy Perkins",
-            "category": "top",
-            "colour": [
-                "black",
-                "gold"
-            ],
-            "sleeve": [
-                "3/4"
-            ],
-            "description": "",
-            "year": 2017,
-            "purchased": "2017-11-29",
-            "season": [
-                "winter"
-            ],
-            "url": "",
-            "material": [
-                "polyester",
-                "elastane"
-            ],
-            "condition": "Excellent",
-            "comments": "",
-            "status": "",
-            "cost": 41.96,
-            "timesWorn": 3
-        },
-        {
-            "name": "Nova Off-Shoulder Tropical Top",
-            "brand": "ONLY",
-            "category": "top",
-            "colour": [
-                "off-white",
-                "pink",
-                "green",
-                "yellow"
-            ],
-            "pattern": "tropical",
-            "sleeve": [
-                "3/4"
-            ],
-            "description": "",
-            "year": 2017,
-            "purchased": "2017-12-28",
-            "season": [
-                "summer",
-                "autumn"
-            ],
-            "url": "",
-            "material": [
-                "viscose"
-            ],
-            "condition": "Excellent",
-            "comments": "",
-            "status": "",
-            "cost": 24.54,
-            "timesWorn": 3
-        },
-        {
-            "name": "Dark Denim Mid-Waist Pants",
-            "brand": "FREDDY",
-            "category": "pants",
-            "colour": [
-                "blue",
-                "navy"
-            ],
-            "description": "",
-            "year": 2017,
-            "purchased": "2017-02-23",
-            "season": [
-                "autumn",
-                "winter",
-                "spring"
-            ],
-            "url": "",
-            "material": [
-                ""
-            ],
-            "condition": "Excellent",
-            "comments": "",
-            "status": "",
-            "cost": 170.60,
-            "timesWorn": 3
-        },
-        {
-            "name": "Tailored Ankle Length Pants",
-            "brand": "Uniqlo",
-            "category": "pants",
-            "colour": [
-                "neutrals",
-                "black"
-            ],
-            "description": "",
-            "year": 2017,
-            "purchased": "2017-11-15",
-            "season": [
-                "summer",
-                "autumn",
-                "winter",
-                "spring",
-                "year-round"
-            ],
-            "url": "",
-            "material": [
-                ""
-            ],
-            "condition": "Excellent",
-            "comments": "",
-            "status": "",
-            "cost": 39,
-            "timesWorn": 10
-        },
-        {
-            "name": "Crew neck sweater",
-            "brand": "Uniqlo",
-            "category": "outerwear",
-            "colour": [
-                "blue",
-                "light blue"
-            ],
-            "description": "",
-            "year": 2017,
-            "purchased": "2017-11-15",
-            "season": [
-                "autumn",
-                "winter"
-            ],
-            "url": "",
-            "material": [
-                ""
-            ],
-            "condition": "Excellent",
-            "comments": "",
-            "status": "",
-            "cost": "",
-            "timesWorn": 3
-        },
-        {
-            "name": "Stine check polo",
-            "brand": "Rut & Circle",
-            "category": "top",
-            "colour": [
-                "off-white",
-                "black"
-            ],
-            "pattern": [
-                "grid",
-                "check"
-            ],
-            "sleeve": "long",
-            "description": "",
-            "year": 2017,
-            "purchased": "2017-02-22",
-            "season": [
-                "autumn",
-                "winter"
-            ],
-            "url": "",
-            "material": [
-                ""
-            ],
-            "condition": "Good",
-            "comments": "",
-            "status": "",
-            "cost": 24.21,
-            "timesWorn": 20
-        },
-        {
-            "name": "Cora Blouse",
-            "brand": "Rut & Circle",
-            "category": "top",
-            "colour": [
-                "cream",
-                "black"
-            ],
-            "pattern": [
-                "spot",
-                "cheetah"
-            ],
-            "sleeve": "short",
-            "description": "",
-            "year": 2017,
-            "purchased": "2017-01-09",
-            "season": [
-                "autumn",
-                "winter"
-            ],
-            "url": "",
-            "material": [
-                ""
-            ],
-            "condition": "Good",
-            "comments": "",
-            "status": "",
-            "cost": 9.30,
-            "timesWorn": 20
-        },
-        {
-            "name": "Knitted crop",
-            "brand": "Carrislabelle",
-            "category": "top",
-            "subcategory": [
-                "sleeveless",
-                "cropped"
-            ],
-            "colour": [
-                "off-white"
-            ],
-            "sleeve": "sleeveless",
-            "description": "",
-            "year": 2016,
-            "purchased": "2016-10-02",
-            "season": [
-                "summer",
-                "autumn"
-            ],
-            "url": "",
-            "material": [
-                "knit"
-            ],
-            "condition": "Good",
-            "comments": "",
-            "status": "",
-            "cost": 22,
-            "timesWorn": 30
-        },
-        {
-            "name": "Jamie ankle grazer ripped jeans",
-            "brand": "Topshop",
-            "category": "jeans",
-            "colour": [
-                "blue"
-            ],
-            "description": "",
-            "year": 2016,
-            "purchased": "2016-05-08",
-            "season": [
-                "summer",
-                "autumn",
-                "winter",
-                "spring",
-                "year-round"
-            ],
-            "url": "",
-            "material": [
-                "denim"
-            ],
-            "condition": "Good",
-            "comments": "",
-            "status": "",
-            "cost": 88,
-            "timesWorn": 150
-        },
-        {
-            "name": "Alexa off-the-shoulder top",
-            "brand": "Forcast",
-            "category": "top",
-            "subcategory": [
-                "off-shoulder"
-            ],
-            "colour": [
-                "orange"
-            ],
-            "sleeves": "short",
-            "description": "",
-            "year": 2017,
-            "purchased": "2017-04-21",
-            "season": [
-                "summer",
-                "autumn",
-                "spring"
-            ],
-            "url": "",
-            "material": [
-                ""
-            ],
-            "condition": "Excellent",
-            "comments": "",
-            "status": "",
-            "cost": 24.98,
-            "timesWorn": 15
-        },
-        {
-            "name": "Lace wrapback top",
-            "brand": "Dorothy Perkins",
-            "category": "top",
-            "colour": [
-                "blue",
-                "bright blue",
-                "cobalt"
-            ],
-            "sleeves": [
-                "short",
-                "cap sleeve"
-            ],
-            "description": "",
-            "year": 2017,
-            "purchased": "2017-04-21",
-            "season": [
-                "summer",
-                "autumn",
-                "spring"
-            ],
-            "url": "",
-            "material": [
-                "lace"
-            ],
-            "condition": "Excellent",
-            "comments": "",
-            "status": "",
-            "cost": 29.98,
-            "timesWorn": 10
-        },
-        {
-            "name": "Nine Striped Dress",
-            "brand": "",
-            "category": "dress",
-            "colour": [
-                "blue",
-                "navy",
-                "white"
-            ],
-            "pattern": "stripe",
-            "sleeves": [
-                "3/4"
-            ],
-            "description": "",
-            "year": 2017,
-            "purchased": "2017-04-15",
-            "season": [
-                "autumn",
-                "winter",
-                "spring"
-            ],
-            "url": "",
-            "material": [
-                "cotton"
-            ],
-            "condition": "Very good",
-            "comments": "",
-            "status": "",
-            "cost": 30.33,
-            "timesWorn": 5
-        },
-        {
-            "name": "Bella crop top",
-            "brand": "Kookai",
-            "category": "top",
-            "subcategory": [
-                "cropped"
-            ],
-            "colour": [
-                "neutrals",
-                "black"
-            ],
-            "sleeve": [
-                "sleeveless"
-            ],
-            "description": "",
-            "year": 2017,
-            "purchased": "2017-12-06",
-            "season": [
-                "summer",
-                "autumn",
-                "spring"
-            ],
-            "url": "",
-            "material": [
-                "pima cotton"
-            ],
-            "condition": "Excellent",
-            "comments": "",
-            "status": "",
-            "cost": 24,
-            "timesWorn": 10
-        },
-        {
-            "name": "Delta crop top",
-            "brand": "Kookai",
-            "category": "top",
-            "subcategory": [
-                "cropped"
-            ],
-            "colour": [
-                "blue",
-                "navy"
-            ],
-            "sleeve": [
-                "sleeveless"
-            ],
-            "description": "",
-            "year": 2017,
-            "purchased": "2017-10-15",
-            "season": [
-                "summer"
-            ],
-            "url": "",
-            "material": [
-                "pima cotton"
-            ],
-            "condition": "Excellent",
-            "comments": "",
-            "status": "",
-            "cost": 30,
-            "timesWorn": 10
-        },
-        {
-            "name": "Willow leather jacket",
-            "brand": "Kookai",
-            "category": "outerwear",
-            "subcategory": [
-                "jacket",
-                "leather jacket"
-            ],
-            "colour": [
-                "neutrals",
-                "black"
-            ],
-            "description": "",
-            "year": 2017,
-            "purchased": "2017-12-06",
-            "season": [
-                "summer",
-                "autumn",
-                "spring"
-            ],
-            "url": "",
-            "material": [
-                "leather"
-            ],
-            "condition": "Excellent",
-            "comments": "",
-            "status": "",
-            "cost": 448,
-            "timesWorn": 10
-        }
-    ]
-}
+        "colour": [
+            "neutrals",
+            "silver",
+            "grey"
+        ],
+        "sleeve": "short",
+        "description": "A glittery/sparkly fine, light t-shirt. Regular fit, fairly stretchy.",
+        "year": 2017,
+        "purchased": "2017-10-24",
+        "season": [
+            "summer",
+            "autumn",
+            "winter",
+            "spring",
+            "year-round"
+        ],
+        "url": "",
+        "material": [
+            "viscose",
+            "lurex"
+        ],
+        "condition": "Very Good",
+        "comments": "This top fits snugly on me. I’ve worn it many times and it goes very well with jeans or one of my Camille skirts. I was wary of it being something I only bought for trends but it turns out I wore it a lot more than I’d initially expected.",
+        "status": "",
+        "cost": 23.34,
+        "timesWorn": 12
+    },
+    {
+        "name": "Piper Denim Bustier",
+        "brand": "Lulu + Rose",
+        "category": "top",
+        "subcategory": [
+            "cropped",
+            "sleeveless"
+        ],
+        "colour": [
+            "neutrals",
+            "white"
+        ],
+        "sleeve": "sleeveless",
+        "description": "A white sleeveless cropped top with deliberately frayed tassel edges. It zips up through the back with a silver zipper with an O-ring pull.",
+        "year": 2018,
+        "purchased": "2018-02-27",
+        "season": [
+            "summer"
+        ],
+        "url": "",
+        "material": [
+            "cotton",
+            "elastane"
+        ],
+        "condition": "Excellent",
+        "comments": "My friend Monica and I bought the same top!",
+        "status": "",
+        "cost": 59.95,
+        "timesWorn": 2
+    },
+    {
+        "name": "frill sleeve bardot top",
+        "brand": "Dorothy Perkins",
+        "category": "top",
+        "subcategory": [
+            "off-shoulder",
+            "fluted sleeve",
+            "delicate"
+        ],
+        "colour": [
+            "purple"
+        ],
+        "sleeve": [
+            "short",
+            {
+                "style": "fluted"
+            }
+        ],
+        "description": "",
+        "year": 2017,
+        "purchased": "2017-08-08",
+        "season": [
+            "autumn",
+            "spring"
+        ],
+        "url": "",
+        "material": [
+            "crepe"
+        ],
+        "condition": "OK",
+        "comments": "Some slight pilling on the upper back and front",
+        "status": "",
+        "cost": 50.96,
+        "timesWorn": 4
+    },
+    {
+        "name": "Everly Shirring High-Neck Top",
+        "brand": "Atmos&Here",
+        "category": "top",
+        "subcategory": [
+            "sleeveless"
+        ],
+        "colour": [
+            "blue",
+            "navy"
+        ],
+        "pattern": [
+            "speckle",
+            "spot"
+        ],
+        "sleeve": "sleeveless",
+        "description": "",
+        "year": 2017,
+        "purchased": "2017-08-15",
+        "season": [
+            "summer",
+            "autumn",
+            "spring"
+        ],
+        "url": "",
+        "material": [
+            "crepe"
+        ],
+        "condition": "Very good",
+        "comments": "",
+        "status": "",
+        "cost": 11.44,
+        "timesWorn": 7
+    },
+    {
+        "name": "Cobalt blue crepe jacket",
+        "brand": "Dorothy Perkins",
+        "category": "outerwear",
+        "subcategory": [
+            "jacket",
+            "blazer"
+        ],
+        "colour": [
+            "blue",
+            "cobalt"
+        ],
+        "sleeve": "long",
+        "description": "",
+        "year": 2017,
+        "purchased": "2017-08-15",
+        "season": [
+            "autumn",
+            "winter",
+            "spring"
+        ],
+        "url": "",
+        "material": [
+            ""
+        ],
+        "condition": "Excellent",
+        "comments": "",
+        "status": "",
+        "cost": 24.71,
+        "timesWorn": 3
+    },
+    {
+        "name": "Mutton Sleeve Tee",
+        "brand": "Dorothy Perkins",
+        "category": "top",
+        "subcategory": [
+            ""
+        ],
+        "colour": [
+            "blue",
+            "light blue",
+            "turquoise"
+        ],
+        "sleeve": [
+            "short",
+            {
+                "style": [
+                    "puffy"
+                ]
+            }
+        ],
+        "description": "",
+        "year": 2017,
+        "purchased": "2017-09-12",
+        "season": [
+            "summer",
+            "autumn",
+            "spring"
+        ],
+        "url": "",
+        "material": [
+            ""
+        ],
+        "condition": "Excellent",
+        "comments": "Bit tight around the chest area",
+        "status": "",
+        "cost": 27.20,
+        "timesWorn": 4
+    },
+    {
+        "name": "Waterfall Button Jacket",
+        "brand": "Dorothy Perkins",
+        "category": "outerwear",
+        "subcategory": [
+            "jacket",
+            "waterfall jacket"
+        ],
+        "colour": [
+            "blue",
+            "navy"
+        ],
+        "sleeve": [
+            "3/4",
+            {
+                "style": [
+                    "buttoned"
+                ]
+            }
+        ],
+        "description": "",
+        "year": 2017,
+        "purchased": "2017-09-20",
+        "season": [
+            "autumn",
+            "spring"
+        ],
+        "url": "",
+        "material": [
+            ""
+        ],
+        "condition": "Excellent",
+        "comments": "",
+        "status": "",
+        "cost": 52.46,
+        "timesWorn": 2
+    },
+    {
+        "name": "Pleat Neck Blouse",
+        "brand": "Dorothy Perkins",
+        "category": "top",
+        "subcategory": [
+            ""
+        ],
+        "colour": [
+            "pink",
+            "blush"
+        ],
+        "sleeve": [
+            "long",
+            {
+                "style": [
+                    "regular"
+                ]
+            }
+        ],
+        "description": "",
+        "year": 2017,
+        "purchased": "2017-09-20",
+        "season": [
+            "autumn",
+            "winter"
+        ],
+        "url": "",
+        "material": [
+            "crepe"
+        ],
+        "condition": "Excellent",
+        "comments": "",
+        "status": "",
+        "cost": 52.46,
+        "timesWorn": 7
+    },
+    {
+        "name": "Enchantress Frill Dress",
+        "brand": "MINKPINK",
+        "category": "dress",
+        "subcategory": [
+            ""
+        ],
+        "colour": [
+            "yellow"
+        ],
+        "sleeve": [
+            "sleeveless",
+            {
+                "style": [
+                    "cold shoulder"
+                ]
+            }
+        ],
+        "description": "",
+        "year": 2017,
+        "purchased": "2017-10-06",
+        "season": [
+            "summer"
+        ],
+        "url": "",
+        "material": [
+            "lace"
+        ],
+        "condition": "Excellent",
+        "comments": "",
+        "status": "",
+        "cost": 27.08,
+        "timesWorn": 3
+    },
+    {
+        "name": "Black Alma Cardigan",
+        "brand": "M.N.G.",
+        "category": "outerwear",
+        "subcategory": [
+            "cardigan"
+        ],
+        "colour": [
+            "neutrals",
+            "black"
+        ],
+        "sleeve": [
+            "long",
+            {
+                "style": [
+                    "fitted"
+                ]
+            }
+        ],
+        "description": "",
+        "year": 2017,
+        "purchased": "2017-10-06",
+        "season": [
+            "summer"
+        ],
+        "url": "",
+        "material": [
+            "knit"
+        ],
+        "condition": "Excellent",
+        "comments": "",
+        "status": "",
+        "cost": 27.08,
+        "timesWorn": 3
+    },
+    {
+        "name": "Rita Rib Neck Tee",
+        "brand": "Atmos&Here",
+        "category": "top",
+        "subcategory": [
+            "cropped",
+            "t-shirt"
+        ],
+        "colour": [
+            "neutrals",
+            "grey"
+        ],
+        "sleeve": [
+            "short"
+        ],
+        "description": "",
+        "year": 2017,
+        "purchased": "2017-10-10",
+        "season": [
+            "summer",
+            "autumn",
+            "winter",
+            "spring",
+            "year-round"
+        ],
+        "url": "",
+        "material": [
+            "cotton"
+        ],
+        "condition": "Good",
+        "comments": "",
+        "status": "",
+        "cost": 24.95,
+        "timesWorn": 20
+    },
+    {
+        "name": "Rita Rib Neck Tee",
+        "brand": "Atmos&Here",
+        "category": "top",
+        "subcategory": [
+            "cropped",
+            "t-shirt"
+        ],
+        "colour": [
+            "white",
+            "blue",
+            "light blue"
+        ],
+        "pattern": "stripe",
+        "sleeve": [
+            "short"
+        ],
+        "description": "",
+        "year": 2017,
+        "purchased": "2017-10-10",
+        "season": [
+            "summer",
+            "autumn",
+            "winter",
+            "spring",
+            "year-round"
+        ],
+        "url": "",
+        "material": [
+            "cotton"
+        ],
+        "condition": "Good",
+        "comments": "",
+        "status": "",
+        "cost": 24.95,
+        "timesWorn": 20
+    },
+    {
+        "name": "Camille Skirt",
+        "brand": "Amelius",
+        "category": "skirt",
+        "subcategory": [
+            "mini skirt"
+        ],
+        "colour": [
+            "neutrals",
+            "black"
+        ],
+        "description": "",
+        "year": 2017,
+        "purchased": "2017-10-10",
+        "season": [
+            "summer",
+            "autumn",
+            "winter",
+            "spring",
+            "year-round"
+        ],
+        "url": "",
+        "material": [
+            "polyurethane"
+        ],
+        "condition": "Good",
+        "comments": "",
+        "status": "",
+        "cost": 47.96,
+        "timesWorn": 10
+    },
+    {
+        "name": "Camille Skirt",
+        "brand": "Amelius",
+        "category": "skirt",
+        "subcategory": [
+            "mini skirt"
+        ],
+        "colour": [
+            "neutrals",
+            "white"
+        ],
+        "description": "",
+        "year": 2017,
+        "purchased": "2017-10-10",
+        "season": [
+            "summer",
+            "autumn",
+            "winter",
+            "spring",
+            "year-round"
+        ],
+        "url": "",
+        "material": [
+            "polyurethane"
+        ],
+        "condition": "Good",
+        "comments": "",
+        "status": "",
+        "cost": 47.96,
+        "timesWorn": 10
+    },
+    {
+        "name": "Cable Front Jumper",
+        "brand": "Dorothy Perkins",
+        "category": "outerwear",
+        "subcategory": [
+            "jumper"
+        ],
+        "colour": [
+            "blue",
+            "navy"
+        ],
+        "sleeve": [
+            "long"
+        ],
+        "description": "",
+        "year": 2017,
+        "purchased": "2017-10-24",
+        "season": [
+            "winter"
+        ],
+        "url": "",
+        "material": [
+            "acrylic"
+        ],
+        "condition": "Good",
+        "comments": "",
+        "status": "",
+        "cost": 32.01,
+        "timesWorn": 5
+    },
+    {
+        "name": "Button Cuff Jumper",
+        "brand": "Dorothy Perkins",
+        "category": "outerwear",
+        "subcategory": [
+            "jumper",
+            "knit"
+        ],
+        "colour": [
+            "neutrals",
+            "grey"
+        ],
+        "sleeve": [
+            "long"
+        ],
+        "description": "",
+        "year": 2017,
+        "purchased": "2017-10-24",
+        "season": [
+            "winter"
+        ],
+        "url": "",
+        "material": [
+            "acrylic"
+        ],
+        "condition": "Good",
+        "comments": "",
+        "status": "",
+        "cost": 40.01,
+        "timesWorn": 3
+    },
+    {
+        "name": "The Colin Jumper",
+        "brand": "McIntyre",
+        "category": "outerwear",
+        "subcategory": [
+            "jumper"
+        ],
+        "colour": [
+            "neutrals",
+            "grey"
+        ],
+        "sleeve": [
+            "long"
+        ],
+        "description": "",
+        "year": 2017,
+        "purchased": "2017-10-24",
+        "season": [
+            "winter"
+        ],
+        "url": "",
+        "material": [
+        "wool"
+    ],
+        "condition": "Good",
+        "comments": "Some pilling on the lower back",
+        "status": "",
+        "cost": 116.79,
+        "timesWorn": 5
+    },
+    {
+        "name": "Jennifer Foil Mutton Sleeve Top",
+        "brand": "Dorothy Perkins",
+        "category": "top",
+        "colour": [
+            "black",
+            "gold"
+        ],
+        "sleeve": [
+            "3/4"
+        ],
+        "description": "",
+        "year": 2017,
+        "purchased": "2017-11-29",
+        "season": [
+            "winter"
+        ],
+        "url": "",
+        "material": [
+            "polyester",
+            "elastane"
+        ],
+        "condition": "Excellent",
+        "comments": "",
+        "status": "",
+        "cost": 41.96,
+        "timesWorn": 3
+    },
+    {
+        "name": "Nova Off-Shoulder Tropical Top",
+        "brand": "ONLY",
+        "category": "top",
+        "colour": [
+            "off-white",
+            "pink",
+            "green",
+            "yellow"
+        ],
+        "pattern": "tropical",
+        "sleeve": [
+            "3/4"
+        ],
+        "description": "",
+        "year": 2017,
+        "purchased": "2017-12-28",
+        "season": [
+            "summer",
+            "autumn"
+        ],
+        "url": "",
+        "material": [
+            "viscose"
+        ],
+        "condition": "Excellent",
+        "comments": "",
+        "status": "",
+        "cost": 24.54,
+        "timesWorn": 3
+    },
+    {
+        "name": "Dark Denim Mid-Waist Pants",
+        "brand": "FREDDY",
+        "category": "pants",
+        "colour": [
+            "blue",
+            "navy"
+        ],
+        "description": "",
+        "year": 2017,
+        "purchased": "2017-02-23",
+        "season": [
+            "autumn",
+            "winter",
+            "spring"
+        ],
+        "url": "",
+        "material": [
+            ""
+        ],
+        "condition": "Excellent",
+        "comments": "",
+        "status": "",
+        "cost": 170.60,
+        "timesWorn": 3
+    },
+    {
+        "name": "Tailored Ankle Length Pants",
+        "brand": "Uniqlo",
+        "category": "pants",
+        "colour": [
+            "neutrals",
+            "black"
+        ],
+        "description": "",
+        "year": 2017,
+        "purchased": "2017-11-15",
+        "season": [
+            "summer",
+            "autumn",
+            "winter",
+            "spring",
+            "year-round"
+        ],
+        "url": "",
+        "material": [
+            ""
+        ],
+        "condition": "Excellent",
+        "comments": "",
+        "status": "",
+        "cost": 39,
+        "timesWorn": 10
+    },
+    {
+        "name": "Crew neck sweater",
+        "brand": "Uniqlo",
+        "category": "outerwear",
+        "colour": [
+            "blue",
+            "light blue"
+        ],
+        "description": "",
+        "year": 2017,
+        "purchased": "2017-11-15",
+        "season": [
+            "autumn",
+            "winter"
+        ],
+        "url": "",
+        "material": [
+            ""
+        ],
+        "condition": "Excellent",
+        "comments": "",
+        "status": "",
+        "cost": "",
+        "timesWorn": 3
+    },
+    {
+        "name": "Stine check polo",
+        "brand": "Rut & Circle",
+        "category": "top",
+        "colour": [
+            "off-white",
+            "black"
+        ],
+        "pattern": [
+            "grid",
+            "check"
+        ],
+        "sleeve": "long",
+        "description": "",
+        "year": 2017,
+        "purchased": "2017-02-22",
+        "season": [
+            "autumn",
+            "winter"
+        ],
+        "url": "",
+        "material": [
+            ""
+        ],
+        "condition": "Good",
+        "comments": "",
+        "status": "",
+        "cost": 24.21,
+        "timesWorn": 20
+    },
+    {
+        "name": "Cora Blouse",
+        "brand": "Rut & Circle",
+        "category": "top",
+        "colour": [
+            "cream",
+            "black"
+        ],
+        "pattern": [
+            "spot",
+            "cheetah"
+        ],
+        "sleeve": "short",
+        "description": "",
+        "year": 2017,
+        "purchased": "2017-01-09",
+        "season": [
+            "autumn",
+            "winter"
+        ],
+        "url": "",
+        "material": [
+            ""
+        ],
+        "condition": "Good",
+        "comments": "",
+        "status": "",
+        "cost": 9.30,
+        "timesWorn": 20
+    },
+    {
+        "name": "Knitted crop",
+        "brand": "Carrislabelle",
+        "category": "top",
+        "subcategory": [
+            "sleeveless",
+            "cropped"
+        ],
+        "colour": [
+            "off-white"
+        ],
+        "sleeve": "sleeveless",
+        "description": "",
+        "year": 2016,
+        "purchased": "2016-10-02",
+        "season": [
+            "summer",
+            "autumn"
+        ],
+        "url": "",
+        "material": [
+            "knit"
+        ],
+        "condition": "Good",
+        "comments": "",
+        "status": "",
+        "cost": 22,
+        "timesWorn": 30
+    },
+    {
+        "name": "Jamie ankle grazer ripped jeans",
+        "brand": "Topshop",
+        "category": "jeans",
+        "colour": [
+            "blue"
+        ],
+        "description": "",
+        "year": 2016,
+        "purchased": "2016-05-08",
+        "season": [
+            "summer",
+            "autumn",
+            "winter",
+            "spring",
+            "year-round"
+        ],
+        "url": "",
+        "material": [
+            "denim"
+        ],
+        "condition": "Good",
+        "comments": "",
+        "status": "",
+        "cost": 88,
+        "timesWorn": 150
+    },
+    {
+        "name": "Alexa off-the-shoulder top",
+        "brand": "Forcast",
+        "category": "top",
+        "subcategory": [
+            "off-shoulder"
+        ],
+        "colour": [
+            "orange"
+        ],
+        "sleeves": "short",
+        "description": "",
+        "year": 2017,
+        "purchased": "2017-04-21",
+        "season": [
+            "summer",
+            "autumn",
+            "spring"
+        ],
+        "url": "",
+        "material": [
+            ""
+        ],
+        "condition": "Excellent",
+        "comments": "",
+        "status": "",
+        "cost": 24.98,
+        "timesWorn": 15
+    },
+    {
+        "name": "Lace wrapback top",
+        "brand": "Dorothy Perkins",
+        "category": "top",
+        "colour": [
+            "blue",
+            "bright blue",
+            "cobalt"
+        ],
+        "sleeves": [
+            "short",
+            "cap sleeve"
+        ],
+        "description": "",
+        "year": 2017,
+        "purchased": "2017-04-21",
+        "season": [
+            "summer",
+            "autumn",
+            "spring"
+        ],
+        "url": "",
+        "material": [
+            "lace"
+        ],
+        "condition": "Excellent",
+        "comments": "",
+        "status": "",
+        "cost": 29.98,
+        "timesWorn": 10
+    },
+    {
+        "name": "Nine Striped Dress",
+        "brand": "",
+        "category": "dress",
+        "colour": [
+            "blue",
+            "navy",
+            "white"
+        ],
+        "pattern": "stripe",
+        "sleeves": [
+            "3/4"
+        ],
+        "description": "",
+        "year": 2017,
+        "purchased": "2017-04-15",
+        "season": [
+            "autumn",
+            "winter",
+            "spring"
+        ],
+        "url": "",
+        "material": [
+            "cotton"
+        ],
+        "condition": "Very good",
+        "comments": "",
+        "status": "",
+        "cost": 30.33,
+        "timesWorn": 5
+    },
+    {
+        "name": "Bella crop top",
+        "brand": "Kookai",
+        "category": "top",
+        "subcategory": [
+            "cropped"
+        ],
+        "colour": [
+            "neutrals",
+            "black"
+        ],
+        "sleeve": [
+            "sleeveless"
+        ],
+        "description": "",
+        "year": 2017,
+        "purchased": "2017-12-06",
+        "season": [
+            "summer",
+            "autumn",
+            "spring"
+        ],
+        "url": "",
+        "material": [
+            "pima cotton"
+        ],
+        "condition": "Excellent",
+        "comments": "",
+        "status": "",
+        "cost": 24,
+        "timesWorn": 10
+    },
+    {
+        "name": "Delta crop top",
+        "brand": "Kookai",
+        "category": "top",
+        "subcategory": [
+            "cropped"
+        ],
+        "colour": [
+            "blue",
+            "navy"
+        ],
+        "sleeve": [
+            "sleeveless"
+        ],
+        "description": "",
+        "year": 2017,
+        "purchased": "2017-10-15",
+        "season": [
+            "summer"
+        ],
+        "url": "",
+        "material": [
+            "pima cotton"
+        ],
+        "condition": "Excellent",
+        "comments": "",
+        "status": "",
+        "cost": 30,
+        "timesWorn": 10
+    },
+    {
+        "name": "Willow leather jacket",
+        "brand": "Kookai",
+        "category": "outerwear",
+        "subcategory": [
+            "jacket",
+            "leather jacket"
+        ],
+        "colour": [
+            "neutrals",
+            "black"
+        ],
+        "description": "",
+        "year": 2017,
+        "purchased": "2017-12-06",
+        "season": [
+            "summer",
+            "autumn",
+            "spring"
+        ],
+        "url": "",
+        "material": [
+            "leather"
+        ],
+        "condition": "Excellent",
+        "comments": "",
+        "status": "",
+        "cost": 448,
+        "timesWorn": 10
+    }
+]

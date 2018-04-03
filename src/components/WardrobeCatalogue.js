@@ -6,9 +6,7 @@ class WardrobeCatalogue extends Component {
         super();
 
         this.state = {
-            data: {
-                wardrobe: []
-            },
+            wardrobe: []
         }
     }
 
@@ -17,32 +15,39 @@ class WardrobeCatalogue extends Component {
             .then(res => res.json())
             .then(jsonData => {
                 this.setState({
-                    data: jsonData,
+                    wardrobe: jsonData,
+                    filteredData: jsonData,
                 })
             })
     }
 
     render() {
 
-        const clothingType = (value) => {
-            if (value === 'dress' || value === 'skirt') {
-                return <span role="img" aria-label="teal flared dress">👗</span>;
+        const filterCategory = (category) => {
+            this.setState({
+                category
+            });
+        }
+
+        const category = (value) => {
+            switch(value) {
+                case 'dress' :
+                case 'skirt' :
+                    return <span role="img" aria-label="teal flared dress">👗</span>;
+                case 'outerwear' :
+                    return <span role="img" aria-label="brown overcoat">🧥</span>;
+                case 'top' :
+                    return <span role="img" aria-label="pink blouse">👚</span>;
+                case 'pants' :
+                case 'jeans' :
+                    return <span role="img" aria-label="blue pair of jeans">👖</span>;
+                default :
             }
-            if (value === 'outerwear') {
-                return  <span role="img" aria-label="brown overcoat">🧥</span>;
-            }
-            if (value === 'top') {
-                return  <span role="img" aria-label="pink blouse">👚</span>;
-            }
-            if (value === 'pants' || value === 'jeans') {
-                return  <span role="img" aria-label="blue pair of jeans">👖</span>;
-            }
-            return;
         }
 
         const itemCost = (value) => {
             if (value !== '')
-            return '$' + parseFloat(Math.round(value * 100) / 100).toFixed(2);
+            return '$' + parseFloat(value).toFixed(2);
             return 'unknown';
         }
 
@@ -57,34 +62,50 @@ class WardrobeCatalogue extends Component {
         }
 
         return (
-            <div className="c-list">
-                {this.state.data.wardrobe.map(
-                    function(item, i) {
-                        return (
-                            <div className="c-list-item">
-                                <h3 className="item-name">{ clothingType(item.category) }{item.name}</h3>
-                                <p className="item-category">
-                                    <strong>{item.category}</strong>
-                                    {item.subcategory != null && <span className="inline-list">{ inlineList(item.subcategory) }</span>}
-                                </p>
-                                <span className="item-year">{item.year}</span>
-                                <p>
-                                    <strong>Colour</strong>
-                                    <span className="inline-list">{ inlineList(item.colour) }</span>
-                                </p>
-                                <p>
-                                    <strong>Material</strong>
-                                    <span className="inline-list">{ inlineList(item.material) }</span>
-                                </p>
-                                <hr />
-                                <p>{item.description}</p>
-                                <p>{item.comments}</p>
-                                <p><span role="img" aria-label="sack of money">💰</span> <strong>Purchased for:</strong> { itemCost(item.cost) }<br />
-                                <span role="img" aria-label="handful of paper money">💵</span> <strong>Average cost per wear:</strong> { costPerWear(item.cost, item.timesWorn) }<br />
-                                <span role="img" aria-label="sparkles">✨</span> <strong>Condition:</strong> {item.condition}</p>
-                            </div>
-                        );
-                    })}
+            <div>
+                <div className="c-header">
+                    <button onClick={()=>filterCategory('top')}>
+                        I have awesome tops
+                    </button>
+                    <button onClick={()=>filterCategory('pants')}>
+                        pants
+                    </button>
+                    <button onClick={()=>filterCategory('dress')}>
+                        dresses
+                    </button>
+                </div>
+                <div className="c-list">
+                    {this.state.wardrobe.filter(item => (this.state.category === undefined || this.state.category === item.category)).map(
+                        function(item, i) {
+                            return (
+                                <div
+                                    className="c-list-item"
+                                    key={i}
+                                >
+                                    <h3 className="item-name">{ category(item.category) }{item.name}</h3>
+                                    <p className="item-category">
+                                        <strong>{item.category}</strong>
+                                        {item.subcategory != null && <span className="inline-list">{ inlineList(item.subcategory) }</span>}
+                                    </p>
+                                    <span className="item-year">{item.year}</span>
+                                    <p>
+                                        <strong>Colour</strong>
+                                        <span className="inline-list">{ inlineList(item.colour) }</span>
+                                    </p>
+                                    <p>
+                                        <strong>Material</strong>
+                                        <span className="inline-list">{ inlineList(item.material) }</span>
+                                    </p>
+                                    <hr />
+                                    <p>{item.description}</p>
+                                    <p>{item.comments}</p>
+                                    <p><span role="img" aria-label="sack of money">💰</span> <strong>Purchased for:</strong> { itemCost(item.cost) }<br />
+                                    <span role="img" aria-label="handful of paper money">💵</span> <strong>Average cost per wear:</strong> { costPerWear(item.cost, item.timesWorn) }<br />
+                                    <span role="img" aria-label="sparkles">✨</span> <strong>Condition:</strong> {item.condition}</p>
+                                </div>
+                            );
+                        })}
+                </div>
             </div>
         );
     }
