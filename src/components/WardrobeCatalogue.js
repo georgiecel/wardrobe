@@ -29,6 +29,46 @@ class WardrobeCatalogue extends Component {
             });
         }
 
+        const sortBy = (term) => {
+            // console.log('sort me');
+
+            // console.log(this.state.wardrobe);
+
+            this.state.wardrobe
+                .sort((a, b) => a.term > b.term)
+                    .map((item, i) =>
+                        console.log(item.cost)
+                    );
+
+                //     item.cost.sort((a, b) =>
+                //         (a.cost > b.cost) &&
+                //             console.log ('hi')
+                //     )
+                // })
+
+                // .sort((a, b) => a.)
+                // .sort(item => {
+                //     console.log(item.cost);
+                // });
+
+            // this.state.wardrobe
+            //     .sort((a, b) => {
+            //         if (a.term > b.term) {
+            //             console.log(term);
+            //         }
+            //         else {
+            //             console.log('no');
+            //         }
+            //     });
+
+            // this.state.wardrobe
+            //     .sort((a, b) => a.term > b.term)
+            //         .map((item, i) => 
+            //             <div key={i}> {item.term}</div>
+            //         );
+            //         console.log(term);
+        }
+
         const category = (value) => {
             switch(value) {
                 case 'dress' :
@@ -65,13 +105,26 @@ class WardrobeCatalogue extends Component {
             <div>
                 <div className="c-header">
                     <button onClick={()=>filterCategory('top')}>
-                        I have awesome tops
+                        tops
                     </button>
                     <button onClick={()=>filterCategory('pants')}>
                         pants
                     </button>
                     <button onClick={()=>filterCategory('dress')}>
                         dresses
+                    </button>
+                    <button onClick={()=>filterCategory('skirt')}>
+                        skirts
+                    </button>
+                    <button onClick={()=>filterCategory('jeans')}>
+                        jeans
+                    </button>
+                    <button onClick={()=>filterCategory('outerwear')}>
+                        outerwear
+                    </button>
+                    <p>Order by</p>
+                    <button onClick={()=>sortBy('cost')}>
+                        cost
                     </button>
                 </div>
                 <div className="c-list">

@@ -475,7 +475,7 @@
         "comments": "",
         "status": "",
         "cost": 47.96,
-        "timesWorn": 10
+        "timesWorn": 11
     },
     {
         "name": "Cable Front Jumper",
@@ -579,16 +579,18 @@
         "sleeve": [
             "3/4"
         ],
-        "description": "",
+        "description": "Black crepe top with gold threads woven throughout. Has a round neckline, bust darts, and gathered shoulder detail. Buttons with a single button at the nape.",
         "year": 2017,
         "purchased": "2017-11-29",
         "season": [
-            "winter"
+            "autumn",
+            "winter",
+            "spring"
         ],
         "url": "",
         "material": [
-            "polyester",
-            "elastane"
+            "95% polyester",
+            "5% elastane"
         ],
         "condition": "Excellent",
         "comments": "",
@@ -679,7 +681,7 @@
         "comments": "",
         "status": "",
         "cost": 39,
-        "timesWorn": 10
+        "timesWorn": 11
     },
     {
         "name": "Crew neck sweater",
@@ -703,7 +705,7 @@
         "condition": "Excellent",
         "comments": "",
         "status": "",
-        "cost": "",
+        "cost": 70,
         "timesWorn": 3
     },
     {
@@ -849,7 +851,7 @@
         "comments": "",
         "status": "",
         "cost": 24.98,
-        "timesWorn": 15
+        "timesWorn": 16
     },
     {
         "name": "Lace wrapback top",
@@ -943,7 +945,7 @@
         "comments": "",
         "status": "",
         "cost": 24,
-        "timesWorn": 10
+        "timesWorn": 13
     },
     {
         "name": "Delta crop top",
@@ -973,7 +975,7 @@
         "comments": "",
         "status": "",
         "cost": 30,
-        "timesWorn": 10
+        "timesWorn": 11
     },
     {
         "name": "Willow leather jacket",
@@ -1004,5 +1006,202 @@
         "status": "",
         "cost": 448,
         "timesWorn": 10
+    },
+    {
+        "name": "Sparkle Lurex Tee",
+        "brand": "Marcs",
+        "category": "top",
+        "subcategory": [
+            "t-shirt"
+        ],
+        "colour": [
+            "blue"
+        ],
+        "sleeve": "short",
+        "description": "A fitted bright blue t-shirt with a slightly curved hemline, with metallic threads woven throughout the material. The material has slight stretch.",
+        "year": 2018,
+        "purchased": "2018-03-16",
+        "season": [
+            "summer",
+            "autumn",
+            "winter",
+            "spring",
+            "year-round"
+        ],
+        "url": "",
+        "material": [
+            "97% cotton",
+            "3% lurex"
+        ],
+        "condition": "Excellent",
+        "comments": "",
+        "status": "",
+        "cost": 28.9,
+        "timesWorn": 6
+    },
+    {
+        "name": "Chloe navy pinstripe skirt",
+        "brand": "Elka Collective",
+        "category": "skirt",
+        "colour": [
+            "navy"
+        ],
+        "pattern": [
+            "pinstripe"
+        ],
+        "description": "A knee-length a-line linen skirt. Faux wrap look with a bronze zip and rope tab. Invisible zip down the side.",
+        "year": 2018,
+        "purchased": "2018-03-20",
+        "season": [
+            "summer",
+            "autumn",
+            "spring"
+        ],
+        "url": "",
+        "material": [
+            "55% linen",
+            "45% cotton"
+        ],
+        "condition": "Excellent",
+        "comments": "",
+        "status": "",
+        "cost": 118.3,
+        "timesWorn": 1
+    },
+    {
+        "name": "Black tailored jacket with white panels",
+        "brand": "Basque",
+        "category": "outerwear",
+        "subcategory": [
+            "jacket"
+        ],
+        "colour": [
+            "black",
+            "white"
+        ],
+        "description": "A tailored, fitted black blazer, with white panels down the front and side. Faux pockets sit at the sides.",
+        "year": 2015,
+        "purchased": "",
+        "season": [
+            "autumn",
+            "winter",
+            "spring"
+        ],
+        "url": "",
+        "material": [
+            "68% polyester",
+            "28% viscose",
+            "4% elastane"
+        ],
+        "condition": "Very Good",
+        "comments": "",
+        "status": "",
+        "cost": 60,
+        "timesWorn": 20
+    },
+    {
+        "name": "Jamie ankle grazer jeans",
+        "brand": "Topshop",
+        "category": "jeans",
+        "colour": [
+            "blue"
+        ],
+        "description": "Petite sized, high-waisted ankle grazer jeans in a medium blue wash.",
+        "year": 2017,
+        "purchased": "2017-08-26",
+        "season": [
+            "summer",
+            "autumn",
+            "winter",
+            "spring",
+            "year-round"
+        ],
+        "url": "",
+        "material": [
+            "denim"
+        ],
+        "condition": "Good",
+        "comments": "",
+        "status": "",
+        "cost": 90,
+        "timesWorn": 23
+    },
+    {
+        "name": "High-waisted black pinstripe skirt",
+        "brand": "Homemade",
+        "category": "skirt",
+        "colour": [
+            "black"
+        ],
+        "description": "Custom-made high-waisted black skirt made from a slightly shiny ribbed fabric. It has an invisible pocket on each side at the seams. The skirt zips up at the back.",
+        "year": 2015,
+        "purchased": "2015-12-23",
+        "season": [
+            "summer",
+            "autumn",
+            "winter",
+            "spring",
+            "year-round"
+        ],
+        "url": "",
+        "material": [
+            "polyester"
+        ],
+        "condition": "Very good",
+        "comments": "This skirt was made by my friend Seb.",
+        "status": "",
+        "cost": 0,
+        "timesWorn": 30
+    },
+    {
+        "name": "Versaille lace midi dress",
+        "brand": "Tussah",
+        "category": "dress",
+        "colour": [
+            "white"
+        ],
+        "description": "Body-con style lace dress with a high square neck. The dress has an invisible zip down the back.",
+        "year": 2018,
+        "purchased": "2018-03-21",
+        "season": [
+            "summer",
+            "autumn",
+            "spring"
+        ],
+        "url": "",
+        "material": [
+            "polyester"
+        ],
+        "condition": "Excellent",
+        "comments": "",
+        "status": "",
+        "cost": 71.7,
+        "timesWorn": 1
+    },
+    {
+        "name": "Isla layered mini skirt",
+        "brand": "Calli",
+        "category": "skirt",
+        "colour": [
+            "white"
+        ],
+        "description": "Lace, two-tiered a-line skirt with an invisible zip down the side.",
+        "year": 2018,
+        "purchased": "2018-03-19",
+        "season": [
+            "summer",
+            "autumn",
+            "spring"
+        ],
+        "url": "",
+        "material": [
+            "65% nylon",
+            "35% polyester"
+        ],
+        "condition": "Excellent",
+        "comments": "",
+        "status": "",
+        "cost": 41.97,
+        "timesWorn": 1
     }
 ]
