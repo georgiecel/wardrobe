@@ -6,6 +6,7 @@ class WardrobeCatalogue extends Component {
         super();
 
         this.state = {
+            sort: undefined,
             wardrobe: []
         }
     }
@@ -30,43 +31,9 @@ class WardrobeCatalogue extends Component {
         }
 
         const sortBy = (term) => {
-            // console.log('sort me');
-
-            // console.log(this.state.wardrobe);
-
-            this.state.wardrobe
-                .sort((a, b) => a.term > b.term)
-                    .map((item, i) =>
-                        console.log(item.cost)
-                    );
-
-                //     item.cost.sort((a, b) =>
-                //         (a.cost > b.cost) &&
-                //             console.log ('hi')
-                //     )
-                // })
-
-                // .sort((a, b) => a.)
-                // .sort(item => {
-                //     console.log(item.cost);
-                // });
-
-            // this.state.wardrobe
-            //     .sort((a, b) => {
-            //         if (a.term > b.term) {
-            //             console.log(term);
-            //         }
-            //         else {
-            //             console.log('no');
-            //         }
-            //     });
-
-            // this.state.wardrobe
-            //     .sort((a, b) => a.term > b.term)
-            //         .map((item, i) => 
-            //             <div key={i}> {item.term}</div>
-            //         );
-            //         console.log(term);
+            this.setState({
+                sort: term
+            });
         }
 
         const category = (value) => {
@@ -123,12 +90,18 @@ class WardrobeCatalogue extends Component {
                         outerwear
                     </button>
                     <p>Order by</p>
-                    <button onClick={()=>sortBy('cost')}>
+                    <button onClick={() => sortBy('cost')}>
                         cost
+                    </button>
+                    <button onClick={() => sortBy('timesWorn')}>
+                        times worn
                     </button>
                 </div>
                 <div className="c-list">
-                    {this.state.wardrobe.filter(item => (this.state.category === undefined || this.state.category === item.category)).map(
+                    {this.state.wardrobe
+                        .filter(item => (this.state.category === undefined || this.state.category === item.category))
+                        .sort((a, b) => a[this.state.sort] > b[this.state.sort] ? -1 : 1)
+                        .map(
                         function(item, i) {
                             return (
                                 <div
