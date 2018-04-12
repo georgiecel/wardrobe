@@ -68,6 +68,8 @@ class WardrobeCatalogue extends Component {
             return value.join(' • ');
         }
 
+        const totalWardrobeCost = (accumulator, currentWardrobeItem) => accumulator + currentWardrobeItem.cost;
+
         return (
             <div>
                 <div className="c-header">
@@ -96,6 +98,7 @@ class WardrobeCatalogue extends Component {
                     <button onClick={() => sortBy('timesWorn')}>
                         times worn
                     </button>
+                    <p>${this.state.wardrobe.reduce(totalWardrobeCost, 0).toFixed(2)}</p>
                 </div>
                 <div className="c-list">
                     {this.state.wardrobe
