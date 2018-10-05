@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { WardrobeItem } from './WardrobeItem';
 
 class WardrobeCatalogue extends Component {
 
@@ -6,6 +7,7 @@ class WardrobeCatalogue extends Component {
         super();
 
         this.state = {
+            count: undefined,
             sort: undefined,
             wardrobe: []
         }
@@ -16,6 +18,7 @@ class WardrobeCatalogue extends Component {
             .then(res => res.json())
             .then(jsonData => {
                 this.setState({
+                    count: jsonData.length,
                     wardrobe: jsonData,
                     filteredData: jsonData,
                 })
@@ -36,43 +39,19 @@ class WardrobeCatalogue extends Component {
             });
         }
 
-        const category = (value) => {
-            switch(value) {
-                case 'dress' :
-                case 'skirt' :
-                    return <span role="img" aria-label="teal flared dress">👗</span>;
-                case 'outerwear' :
-                    return <span role="img" aria-label="brown overcoat">🧥</span>;
-                case 'top' :
-                    return <span role="img" aria-label="pink blouse">👚</span>;
-                case 'pants' :
-                case 'jeans' :
-                    return <span role="img" aria-label="blue pair of jeans">👖</span>;
-                default :
-            }
-        }
-
-        const itemCost = (value) => {
-            if (value !== '')
-            return '$' + parseFloat(value).toFixed(2);
-            return 'unknown';
-        }
-
-        const costPerWear = (value, timesWorn) => {
-            if ((value !== '') && (timesWorn !== ''))
-            return '$' + (value / timesWorn).toFixed(2);
-            return 'unknown';
-        }
-
-        const inlineList = (value) => {
-            return value.join(' • ');
-        }
-
         const totalWardrobeCost = (accumulator, currentWardrobeItem) => accumulator + currentWardrobeItem.cost;
+
+        const resetAllFilters = () => {
+            filterCategory();
+            sortBy();
+        }
 
         return (
             <div>
                 <div className="c-header">
+                    <button onClick={resetAllFilters}>
+                        reset all
+                    </button>
                     <button onClick={()=>filterCategory('top')}>
                         tops
                     </button>
@@ -98,6 +77,7 @@ class WardrobeCatalogue extends Component {
                     <button onClick={() => sortBy('timesWorn')}>
                         times worn
                     </button>
+
                     <p>${this.state.wardrobe.reduce(totalWardrobeCost, 0).toFixed(2)}</p>
                 </div>
                 <div className="c-list">
@@ -105,35 +85,26 @@ class WardrobeCatalogue extends Component {
                         .filter(item => (this.state.category === undefined || this.state.category === item.category))
                         .sort((a, b) => a[this.state.sort] > b[this.state.sort] ? -1 : 1)
                         .map(
-                        function(item, i) {
-                            return (
-                                <div
-                                    className="c-list-item"
-                                    key={i}
-                                >
-                                    <h3 className="item-name">{ category(item.category) }{item.name}</h3>
-                                    <p className="item-category">
-                                        <strong>{item.category}</strong>
-                                        {item.subcategory != null && <span className="inline-list">{ inlineList(item.subcategory) }</span>}
-                                    </p>
-                                    <span className="item-year">{item.year}</span>
-                                    <p>
-                                        <strong>Colour</strong>
-                                        <span className="inline-list">{ inlineList(item.colour) }</span>
-                                    </p>
-                                    <p>
-                                        <strong>Material</strong>
-                                        <span className="inline-list">{ inlineList(item.material) }</span>
-                                    </p>
-                                    <hr />
-                                    <p>{item.description}</p>
-                                    <p>{item.comments}</p>
-                                    <p><span role="img" aria-label="sack of money">💰</span> <strong>Purchased for:</strong> { itemCost(item.cost) }<br />
-                                    <span role="img" aria-label="handful of paper money">💵</span> <strong>Average cost per wear:</strong> { costPerWear(item.cost, item.timesWorn) }<br />
-                                    <span role="img" aria-label="sparkles">✨</span> <strong>Condition:</strong> {item.condition}</p>
-                                </div>
-                            );
-                        })}
+                            (item, i) => {
+                                return (
+                                    <WardrobeItem
+                                        category={item.category}
+                                        colour={item.colour}
+                                        comments={item.comments}
+                                        condition={item.condition}
+                                        cost={item.cost}
+                                        description={item.description}
+                                        isRemoved={item.removed}
+                                        material={item.material}
+                                        name={item.name}
+                                        subcategory={item.subcategory}
+                                        timesWorn={item.timesWorn}
+                                        year={item.year}
+                                    />
+                                );
+                            }
+                        )
+                    }
                 </div>
             </div>
         );

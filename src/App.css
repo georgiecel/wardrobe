@@ -59,6 +59,10 @@ button:hover {
         0.75rem 1.5rem #E84855;
 }
 
+.c-list-item--removed {
+    opacity: 0.4;
+}
+
 .inline-list {
     display: block;
     font-weight: normal;

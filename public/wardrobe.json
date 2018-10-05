@@ -199,7 +199,8 @@
         "comments": "Bit tight around the chest area",
         "status": "",
         "cost": 27.20,
-        "timesWorn": 4
+        "timesWorn": 4,
+        "removed": true
     },
     {
         "name": "Waterfall Button Jacket",
@@ -306,7 +307,8 @@
         "comments": "",
         "status": "",
         "cost": 27.08,
-        "timesWorn": 3
+        "timesWorn": 3,
+        "removed": true
     },
     {
         "name": "Black Alma Cardigan",
@@ -376,7 +378,8 @@
         "comments": "",
         "status": "",
         "cost": 24.95,
-        "timesWorn": 20
+        "timesWorn": 20,
+        "removed": true
     },
     {
         "name": "Rita Rib Neck Tee",
@@ -413,7 +416,8 @@
         "comments": "",
         "status": "",
         "cost": 24.95,
-        "timesWorn": 20
+        "timesWorn": 20,
+        "removed": true
     },
     {
         "name": "Camille Skirt",
@@ -505,7 +509,8 @@
         "comments": "",
         "status": "",
         "cost": 32.01,
-        "timesWorn": 5
+        "timesWorn": 5,
+        "removed": true
     },
     {
         "name": "Button Cuff Jumper",
@@ -560,8 +565,8 @@
         ],
         "url": "",
         "material": [
-        "wool"
-    ],
+            "wool"
+        ],
         "condition": "Good",
         "comments": "Some pilling on the lower back",
         "status": "",
@@ -596,7 +601,8 @@
         "comments": "",
         "status": "",
         "cost": 41.96,
-        "timesWorn": 3
+        "timesWorn": 3,
+        "removed": true
     },
     {
         "name": "Nova Off-Shoulder Tropical Top",
@@ -653,7 +659,8 @@
         "comments": "",
         "status": "",
         "cost": 170.60,
-        "timesWorn": 3
+        "timesWorn": 3,
+        "removed": true
     },
     {
         "name": "Tailored Ankle Length Pants",
@@ -736,7 +743,8 @@
         "comments": "",
         "status": "",
         "cost": 24.21,
-        "timesWorn": 20
+        "timesWorn": 20,
+        "removed": true
     },
     {
         "name": "Cora Blouse",
@@ -766,7 +774,8 @@
         "comments": "",
         "status": "",
         "cost": 9.30,
-        "timesWorn": 20
+        "timesWorn": 20,
+        "removed": true
     },
     {
         "name": "Knitted crop",
@@ -882,7 +891,8 @@
         "comments": "",
         "status": "",
         "cost": 29.98,
-        "timesWorn": 10
+        "timesWorn": 10,
+        "removed": true
     },
     {
         "name": "Nine Striped Dress",
@@ -1124,7 +1134,8 @@
         "comments": "",
         "status": "",
         "cost": 90,
-        "timesWorn": 23
+        "timesWorn": 23,
+        "removed": true
     },
     {
         "name": "High-waisted black pinstripe skirt",
