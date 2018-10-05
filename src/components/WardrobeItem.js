@@ -102,4 +102,4 @@ class WardrobeItem extends Component {
     }
 }
 
-export { WardrobeItem };
+export default WardrobeItem;

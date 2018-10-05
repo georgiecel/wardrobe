@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { WardrobeItem } from './WardrobeItem';
+import WardrobeItem from './WardrobeItem';
 
 class WardrobeCatalogue extends Component {
 
@@ -7,8 +7,8 @@ class WardrobeCatalogue extends Component {
         super();
 
         this.state = {
-            count: undefined,
-            sort: undefined,
+            count: 0,
+            sort: 'timesWorn',
             wardrobe: []
         }
     }

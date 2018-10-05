@@ -31,7 +31,7 @@
         "comments": "This top fits snugly on me. I’ve worn it many times and it goes very well with jeans or one of my Camille skirts. I was wary of it being something I only bought for trends but it turns out I wore it a lot more than I’d initially expected.",
         "status": "",
         "cost": 23.34,
-        "timesWorn": 12
+        "timesWorn": 20
     },
     {
         "name": "Piper Denim Bustier",
@@ -61,7 +61,7 @@
         "comments": "My friend Monica and I bought the same top!",
         "status": "",
         "cost": 59.95,
-        "timesWorn": 2
+        "timesWorn": 5
     },
     {
         "name": "frill sleeve bardot top",
@@ -96,7 +96,8 @@
         "comments": "Some slight pilling on the upper back and front",
         "status": "",
         "cost": 50.96,
-        "timesWorn": 4
+        "timesWorn": 4,
+        "removed": true
     },
     {
         "name": "Everly Shirring High-Neck Top",
@@ -161,7 +162,7 @@
         "comments": "",
         "status": "",
         "cost": 24.71,
-        "timesWorn": 3
+        "timesWorn": 6
     },
     {
         "name": "Mutton Sleeve Tee",
@@ -448,7 +449,7 @@
         "comments": "",
         "status": "",
         "cost": 47.96,
-        "timesWorn": 10
+        "timesWorn": 20
     },
     {
         "name": "Camille Skirt",
@@ -479,7 +480,7 @@
         "comments": "",
         "status": "",
         "cost": 47.96,
-        "timesWorn": 11
+        "timesWorn": 17
     },
     {
         "name": "Cable Front Jumper",
@@ -571,7 +572,7 @@
         "comments": "Some pilling on the lower back",
         "status": "",
         "cost": 116.79,
-        "timesWorn": 5
+        "timesWorn": 6
     },
     {
         "name": "Jennifer Foil Mutton Sleeve Top",
@@ -633,7 +634,7 @@
         "comments": "",
         "status": "",
         "cost": 24.54,
-        "timesWorn": 3
+        "timesWorn": 5
     },
     {
         "name": "Dark Denim Mid-Waist Pants",
@@ -688,7 +689,7 @@
         "comments": "",
         "status": "",
         "cost": 39,
-        "timesWorn": 11
+        "timesWorn": 20
     },
     {
         "name": "Crew neck sweater",
@@ -713,7 +714,7 @@
         "comments": "",
         "status": "",
         "cost": 70,
-        "timesWorn": 3
+        "timesWorn": 5
     },
     {
         "name": "Stine check polo",
@@ -831,7 +832,7 @@
         "comments": "",
         "status": "",
         "cost": 88,
-        "timesWorn": 150
+        "timesWorn": 155
     },
     {
         "name": "Alexa off-the-shoulder top",
@@ -860,7 +861,7 @@
         "comments": "",
         "status": "",
         "cost": 24.98,
-        "timesWorn": 16
+        "timesWorn": 18
     },
     {
         "name": "Lace wrapback top",
@@ -895,7 +896,7 @@
         "removed": true
     },
     {
-        "name": "Nine Striped Dress",
+        "name": "Striped off-the-shoulder top",
         "brand": "",
         "category": "dress",
         "colour": [
@@ -920,10 +921,10 @@
             "cotton"
         ],
         "condition": "Very good",
-        "comments": "",
+        "comments": "This was a dress altered into an off-shoulder top",
         "status": "",
         "cost": 30.33,
-        "timesWorn": 5
+        "timesWorn": 10
     },
     {
         "name": "Bella crop top",
@@ -955,7 +956,7 @@
         "comments": "",
         "status": "",
         "cost": 24,
-        "timesWorn": 13
+        "timesWorn": 23
     },
     {
         "name": "Delta crop top",
@@ -985,7 +986,7 @@
         "comments": "",
         "status": "",
         "cost": 30,
-        "timesWorn": 11
+        "timesWorn": 21
     },
     {
         "name": "Willow leather jacket",
@@ -1015,7 +1016,7 @@
         "comments": "",
         "status": "",
         "cost": 448,
-        "timesWorn": 10
+        "timesWorn": 30
     },
     {
         "name": "Sparkle Lurex Tee",
@@ -1047,7 +1048,7 @@
         "comments": "",
         "status": "",
         "cost": 28.9,
-        "timesWorn": 6
+        "timesWorn": 20
     },
     {
         "name": "Chloe navy pinstripe skirt",
@@ -1076,7 +1077,7 @@
         "comments": "",
         "status": "",
         "cost": 118.3,
-        "timesWorn": 1
+        "timesWorn": 7
     },
     {
         "name": "Black tailored jacket with white panels",
@@ -1107,7 +1108,7 @@
         "comments": "",
         "status": "",
         "cost": 60,
-        "timesWorn": 20
+        "timesWorn": 25
     },
     {
         "name": "Jamie ankle grazer jeans",
@@ -1162,7 +1163,7 @@
         "comments": "This skirt was made by my friend Seb.",
         "status": "",
         "cost": 0,
-        "timesWorn": 30
+        "timesWorn": 32
     },
     {
         "name": "Versaille lace midi dress",
@@ -1187,7 +1188,7 @@
         "comments": "",
         "status": "",
         "cost": 71.7,
-        "timesWorn": 1
+        "timesWorn": 5
     },
     {
         "name": "Isla layered mini skirt",
@@ -1213,6 +1214,6 @@
         "comments": "",
         "status": "",
         "cost": 41.97,
-        "timesWorn": 1
+        "timesWorn": 6
     }
 ]
