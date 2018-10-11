@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import WardrobeItem from './WardrobeItem';
+import WardrobeSearch from './WardrobeSearch';
 
 class WardrobeCatalogue extends Component {
 
@@ -9,7 +10,8 @@ class WardrobeCatalogue extends Component {
         this.state = {
             count: 0,
             sort: 'timesWorn',
-            wardrobe: []
+            wardrobe: [],
+            searchQuery: '',
         }
     }
 
@@ -26,6 +28,12 @@ class WardrobeCatalogue extends Component {
     }
 
     render() {
+
+        const searchByName = (query) => {
+            this.setState({
+                searchQuery: query
+            })
+        }
 
         const filterCategory = (category) => {
             this.setState({
@@ -80,6 +88,7 @@ class WardrobeCatalogue extends Component {
 
                     <p>${this.state.wardrobe.reduce(totalWardrobeCost, 0).toFixed(2)}</p>
                 </div>
+                <WardrobeSearch searchQuery={searchByName} />
                 <div className="c-list">
                     {this.state.wardrobe
                         .filter(item => (this.state.category === undefined || this.state.category === item.category))
@@ -95,6 +104,7 @@ class WardrobeCatalogue extends Component {
                                         cost={item.cost}
                                         description={item.description}
                                         isRemoved={item.removed}
+                                        key={i}
                                         material={item.material}
                                         name={item.name}
                                         subcategory={item.subcategory}

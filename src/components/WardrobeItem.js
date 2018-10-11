@@ -6,17 +6,17 @@ class WardrobeItem extends Component {
 
     static propTypes = {
         category: PropTypes.string,
-        colour: PropTypes.string,
+        colour: PropTypes.array,
         comments: PropTypes.string,
         condition: PropTypes.string,
-        cost: PropTypes.string,
+        cost: PropTypes.number,
         description: PropTypes.string,
         isRemoved: PropTypes.bool,
-        material: PropTypes.string,
+        material: PropTypes.array,
         name: PropTypes.string,
-        subcategory: PropTypes.string,
+        subcategory: PropTypes.array,
         timesWorn: PropTypes.number,
-        year: PropTypes.string,
+        year: PropTypes.number,
     }
 
     render() {
