@@ -24,7 +24,23 @@ class WardrobeCatalogue extends Component {
                     wardrobe: jsonData,
                     filteredData: jsonData,
                 })
-            })
+            });
+        const wardrobe = JSON.parse(localStorage.getItem('wardrobe')) || []
+        this.setState({
+            wardrobe: wardrobe,
+            fullWardrobeList: wardrobe
+        });
+    }
+
+    searchWardrobe(query) {
+        let wardrobe = this.state.fullWardrobeList.filter((wardrobeItem) => {
+            return wardrobeItem.name.includes(query);
+        });
+        this.setState({
+            wardrobe: wardrobe
+        })
+
+        console.log(wardrobe);
     }
 
     render() {
@@ -32,7 +48,7 @@ class WardrobeCatalogue extends Component {
         const searchByName = (query) => {
             this.setState({
                 searchQuery: query
-            })
+            });
         }
 
         const filterCategory = (category) => {
@@ -88,7 +104,7 @@ class WardrobeCatalogue extends Component {
 
                     <p>${this.state.wardrobe.reduce(totalWardrobeCost, 0).toFixed(2)}</p>
                 </div>
-                <WardrobeSearch searchQuery={searchByName} />
+                <WardrobeSearch searchWardrobe={this.searchWardrobe.bind(this)} />
                 <div className="c-list">
                     {this.state.wardrobe
                         .filter(item => (this.state.category === undefined || this.state.category === item.category))

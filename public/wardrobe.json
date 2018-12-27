@@ -131,7 +131,8 @@
         "comments": "",
         "status": "",
         "cost": 11.44,
-        "timesWorn": 7
+        "timesWorn": 7,
+        "removed": true
     },
     {
         "name": "Cobalt blue crepe jacket",
@@ -274,7 +275,8 @@
         "comments": "",
         "status": "",
         "cost": 52.46,
-        "timesWorn": 7
+        "timesWorn": 7,
+        "removed": true
     },
     {
         "name": "Enchantress Frill Dress",
@@ -344,7 +346,8 @@
         "comments": "",
         "status": "",
         "cost": 27.08,
-        "timesWorn": 3
+        "timesWorn": 3,
+        "removed": true
     },
     {
         "name": "Rita Rib Neck Tee",
@@ -542,7 +545,8 @@
         "comments": "",
         "status": "",
         "cost": 40.01,
-        "timesWorn": 3
+        "timesWorn": 3,
+        "removed": true
     },
     {
         "name": "The Colin Jumper",
@@ -634,7 +638,8 @@
         "comments": "",
         "status": "",
         "cost": 24.54,
-        "timesWorn": 5
+        "timesWorn": 5,
+        "removed": true
     },
     {
         "name": "Dark Denim Mid-Waist Pants",
@@ -689,7 +694,8 @@
         "comments": "",
         "status": "",
         "cost": 39,
-        "timesWorn": 20
+        "timesWorn": 20,
+        "removed": true
     },
     {
         "name": "Crew neck sweater",
@@ -805,7 +811,8 @@
         "comments": "",
         "status": "",
         "cost": 22,
-        "timesWorn": 30
+        "timesWorn": 30,
+        "removed": true
     },
     {
         "name": "Jamie ankle grazer ripped jeans",
@@ -832,7 +839,8 @@
         "comments": "",
         "status": "",
         "cost": 88,
-        "timesWorn": 155
+        "timesWorn": 155,
+        "removed": true
     },
     {
         "name": "Alexa off-the-shoulder top",
@@ -1214,6 +1222,7 @@
         "comments": "",
         "status": "",
         "cost": 41.97,
-        "timesWorn": 6
+        "timesWorn": 6,
+        "removed": true
     }
 ]
