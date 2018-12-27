@@ -25,15 +25,11 @@ class WardrobeCatalogue extends Component {
                     filteredData: jsonData,
                 })
             });
-        const wardrobe = JSON.parse(localStorage.getItem('wardrobe')) || []
-        this.setState({
-            wardrobe: wardrobe,
-            fullWardrobeList: wardrobe
-        });
     }
 
     searchWardrobe(query) {
-        let wardrobe = this.state.fullWardrobeList.filter((wardrobeItem) => {
+        console.log(query);
+        let wardrobe = this.state.wardrobe.filter((wardrobeItem) => {
             return wardrobeItem.name.includes(query);
         });
         this.setState({

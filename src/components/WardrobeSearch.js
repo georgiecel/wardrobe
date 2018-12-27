@@ -4,8 +4,8 @@ import PropTypes from 'prop-types';
 
 class WardrobeSearch extends Component {
     static propTypes = {
-        searchByName: PropTypes.func,
-        searchQuery: PropTypes.func,
+        // searchByName: PropTypes.func,
+        // searchQuery: PropTypes.func,
     }
 
     // const query = event.target.value;
